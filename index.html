@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin-Dashboard</title>
+</head>
+<body>
+    <div class ="grid-container">
+        <div class="side-bar">
+            <div class="list" id="dashboard-icon">
+                <img src="icons/view-dashboard.svg" alt="home-icon">
+                <h1>Dashboard</h1>
+            </div>
+
+            <div id="menu">
+                <div class="list">
+                    <img id="icon" src="icons/home-account.svg" alt="home-icon">
+                    <p>Home</p>
+                </div>
+                <div class="list">
+                    <img src="icons/badge-account-horizontal-outline.svg" alt="account-icon">
+                    <p>Profile</p>
+                </div>
+                <div class="list">
+                    <img src="icons/message-reply-text.svg" alt="">
+                    <p>Messages</p>
+                </div>
+                <div class="list">
+                    <img src="icons/history.svg" alt="history-icon">
+                    <p>History</p>
+                </div>
+                <div class="list">
+                    <img src="icons/list-box.svg" alt="task-icon">
+                    <p>Tasks</p>
+                </div>
+                <div class="list">
+                    <img src="icons/account-group.svg" alt="account-group">
+                    <p>Communities</p>
+                </div>
+            </div>
+            
+            <div id="security">
+                <div class="list">
+                    <img src="icons/cogs.svg" alt="task-icon">
+                    <p>Security</p>
+                </div>
+                <div class="list">
+                    <img src="icons/lifebuoy.svg" alt="task-icon">
+                    <p>Support</p>
+                </div>
+                <div class="list">
+                    <img src="icons/shield-lock.svg" alt="task-icon">
+                    <p>Privacy</p>
+                </div>
+            </div>
+        </div>    
+        <div class="header">
+
+            <div class="head-1">
+                <div class="search">
+                    <img src="icons/magnify.svg">
+                    <div id="search-bar"></div>
+                </div>
+                <div class="profile-notif">
+                    <img src="icons/bell-ring-outline.svg">
+                    <img id="cat-img" src="cat.jpg">
+                    <p id="header-username">Morgan Oakley</p>
+                </div>
+            </div>
+
+            <div class="head-2">
+                <img id="cat-img-2" src="cat.jpg">
+                <div class="header-text">
+                    <p>Hi there,</p>
+                    <p class="header-main-username">Morgan Oakley(@morgan)</p>
+                </div>
+                <div class="btns">
+                    <button class="header-btn">New</button>
+                    <button class="header-btn">Upload</button>
+                    <button class="header-btn">Share</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-content">
+            <div class="content-1">
+                <p class="card-title" id="project">Your Projects</p>
+                <div class="card-container">
+                    <div class="card">
+                        <p id="project-title">Super Cool Project</p id="project-title">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    </div>
+                    <div class="card">
+                        <p id="project-title">Less Cool Project</p>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    </div>
+                    <div class="card">
+                        <p id="project-title">Impossible App</p>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    </div>
+                    <div class="card">
+                        <p id="project-title">Easy Peasy App</p id="project-title">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-2">
+                <p class="card-title" >Announcement</p>
+                <div class="card-container-announce">
+                    <div class="list-announce">
+                        <p id="announce"><bold>Site maintenance</bold></p>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="list-announce">
+                        <p id="announce"><bold>Community Share Day</bold></p>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="list-announce">
+                        <p id="announce"><bold>Updated Privacy Policy</bold></p>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>
+                <p class="card-title" id="trend">Trending</p>
+                <div class="card-container-trending">
+                    <div class="icon-profile">
+                        <img id="cat-img" src="cat.jpg">
+                        <img id="cat-img" src="cat.jpg">
+                        <img id="cat-img" src="cat.jpg">
+                        <img id="cat-img" src="cat.jpg">
+                    </div>
+                    <div class="other-users">
+                        <u class="user">
+                            <div class="username">@tegan</div>
+                            <div class="title">World Peace Builder</div>
+                        </u>
+                        <div class="user">
+                            <div class="username">@morgan</div>
+                            <div class="title">Super Cool Project</div>
+                        </div>
+                        <div class="user">
+                            <div class="username">@kendall</div>
+                            <div class="title">Life Changing App</div>
+                        </div>
+                        <div class="user">
+                            <div class="username">@alex</div>
+                            <div class="title">No Traffic Maker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    
+</body>
+</html>
